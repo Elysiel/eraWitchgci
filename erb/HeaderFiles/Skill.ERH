@@ -1,0 +1,2 @@
+;本文件定义人物普通技能数组，色色数据仍使用ABL机制
+#DIM SAVEDATA CHARADATA Skill, 256
