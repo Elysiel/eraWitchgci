@@ -4,7 +4,7 @@
 ;このタイミングでグローバル変数を読んでおけば取りこぼしが無くなる。
 ;GLOBALはRESETDATAやLOADDATAによって初期化・上書きされない。
 ;必要に応じてコメントアウトを解除すること。
-;LOADGLOBAL
+LOADGLOBAL
 
 
 ;タイトル表示
@@ -29,7 +29,7 @@ IF RESULT == 0
 	RESETDATA
 	;ADDDEFCHARAはeramakerの動作を再現するために存在する専用の関数です
 	;他の場面ではADDCHARA、ADDSPCHARA等を使うことを勧めます
-	ADDDEFCHARA 0
+	ADDCHARA 0
 	BEGIN FIRST
 	RETURN
 ELSEIF RESULT == 1
