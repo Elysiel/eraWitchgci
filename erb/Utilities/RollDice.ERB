@@ -13,5 +13,5 @@ RETURNF SUM_A
 
 @ROLL_ONCE, ARG:0                       ;投一个骰子，语义为d(arg:0)
     #FUNCTION
-    ASSERT ARG:1 > 1
+    ASSERT ARG:0 > 1
 RETURNF RAND(1, ARG:0)
