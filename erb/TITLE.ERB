@@ -12,15 +12,16 @@ $TITLE_SELECT
 DRAWLINE 
 
 ALIGNMENT CENTER
-PRINTL era 全民魔女1994
+PRINTL era全民魔女
 ALIGNMENT LEFT
 
 
 DRAWLINE 
 
 ;選択肢表示。_Rename.csvで指定した値を読むことはできないのでここで指定する必要がある。
-PRINTL [0] 新游戏
-PRINTL [1] 读取存档
+PRINTBUTTONLC "[0] 新游戏", 0
+PRINTL
+PRINTBUTTONLC "[1] 读取存档", 1
 
 $TITLE_INPUT
 INPUT
