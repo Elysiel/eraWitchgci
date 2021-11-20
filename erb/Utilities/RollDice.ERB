@@ -1,0 +1,10 @@
+;骰子相关在这里
+
+@ROLL_DICE, ARG:0, ARG:1                ;投一组骰子，语义为(arg:0)d(arg:1)
+    #FUNCTION
+    #DIM SUM_A
+    SUM_A = 0
+    REPEAT ARG:0
+        SUM_A += RAND(1, ARG:1)
+    REND
+RETURNF SUM_A
