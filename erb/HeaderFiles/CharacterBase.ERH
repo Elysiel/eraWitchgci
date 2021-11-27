@@ -1,0 +1,2 @@
+;此处记录各种数值的原始值（玩家分配及职业决定的数值）
+#DIM SAVEDATA CHARADATA CHARACTER_BASE, 100

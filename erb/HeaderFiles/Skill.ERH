@@ -1,2 +1,4 @@
 ;本文件定义人物普通技能数组，色色数据仍使用ABL机制
-#DIM SAVEDATA CHARADATA Skill, 256
+#DIM SAVEDATA CHARADATA SKILL, 256              ;此处记录技能的有效值，加入所有可用的加值
+
+#DIM SAVEDATA CHARADATA SKILL_BASE, 256          ;此处记录技能的原始值，即玩家分配的技能点
